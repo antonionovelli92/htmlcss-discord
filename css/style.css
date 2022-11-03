@@ -207,7 +207,7 @@ footer {
   height: 600px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid purple;
+  border-bottom: 1px solid #7288DA;
 
   display: flex;
 }
