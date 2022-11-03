@@ -98,6 +98,16 @@ header {
   text-align: center;
   color: white;
 }
+.jumbotron-title{
+  margin: 15px auto;
+  font-size: 50px;
+  margin-top: 40px;
+}
+.jumbotron-text{
+  padding: 30px;
+  font-weight: inherit;
+  font-size: 16px;
+}
 
 /* # Main & sections */
 section {
