@@ -34,12 +34,15 @@ body {
 }
 
 .bg-gray {
-  background-color: lightgray;
+  background-color: #F6F6F6;
 }
 .bg-wave{
   /* background-image: url(../img/wave.svg);  */
   background-color: #F6F6F6;
 }
+/* .bg-bonus{
+background-image: url(../img/wave.svg); 
+} */
 
 header {
   background-color: #3161E0;
