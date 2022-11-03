@@ -143,6 +143,15 @@ section > .container {
   flex-basis: 40%;
   background-color: pink;
 }
+.small-col-title{
+font-size: 40px;
+}
+.small-col-text{
+  font-size: 20px;
+}
+.small-col >*{
+  margin: 38px 85px;
+}
 
 .flex > .large-col {
   flex-basis: 60%;
