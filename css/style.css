@@ -73,6 +73,7 @@ header {
 .navbar-button{
   border-radius: 15px;
   padding: 6px 10px;
+  cursor: pointer;
 }
 
 /* # Jumbotron */
