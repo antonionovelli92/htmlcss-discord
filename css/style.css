@@ -36,6 +36,10 @@ body {
 .bg-gray {
   background-color: lightgray;
 }
+.bg-wave{
+  /* background-image: url(../img/wave.svg); BONUS */
+  background-color: #F6F6F6;
+}
 
 header {
   background-color: #3161E0;
@@ -132,7 +136,7 @@ header {
 /* # Main & sections */
 section {
   padding: 50px;
-  height: 600px;
+  min-height: 600px;
 }
 
 section > .container {
@@ -147,10 +151,20 @@ section > .container {
 font-size: 40px;
 }
 .small-col-text{
-  font-size: 20px;
+  font-size: 17px;
 }
 .small-col >*{
   margin: 38px 85px;
+}
+.full-col>*{
+  text-align: center;
+}
+.full-col-title{
+font-size: 40px;
+}
+.full-col-text{
+  font-size: 17px;
+  margin: 20px 60px;
 }
 
 .flex > .large-col {
@@ -160,7 +174,11 @@ font-size: 40px;
 
 .flex > .full-col {
   flex-basis: 100%;
-  background-color: darkgreen;
+  /* background-color: darkgreen; */
+}
+.full-col-content{
+  display: flex;
+  justify-content: center;
 }
 
 /* # Footer */
