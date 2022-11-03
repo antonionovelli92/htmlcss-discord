@@ -81,16 +81,17 @@ header {
 .jumbotron {
   padding: 50px;
   height: 500px;
-  background-color: darkblue;
-
+  /* background-color: darkblue; */
+  background-image:url(../img/jumbo.png);
+  background-size: cover;
   display: flex;
   justify-content: center;
 }
 
 .jumbotron .content {
   width: 50%;
-  /* height: 100%; */
-  /* margin: 0 auto; */
+  height: 100%;
+  margin: 0 auto;
   background-color: violet;
 }
 
