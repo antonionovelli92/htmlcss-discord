@@ -54,16 +54,25 @@ header {
 .navbar > * {
   padding: 10px;
   flex-basis: 20%;
-  background-color: goldenrod;
+  /* background-color: goldenrod; */
 }
 
 .navbar-menu {
   flex-grow: 1;
   text-align: center;
 }
+.navbar-menu >*{
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+}
 
 .navbar-actions {
   text-align: right;
+}
+.navbar-button{
+  border-radius: 15px;
+  padding: 6px 10px;
 }
 
 /* # Jumbotron */
