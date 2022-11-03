@@ -74,6 +74,8 @@ header {
   border-radius: 15px;
   padding: 6px 10px;
   cursor: pointer;
+  border: 0px;
+  background-color: white;
 }
 
 /* # Jumbotron */
@@ -92,7 +94,9 @@ header {
   width: 50%;
   height: 100%;
   margin: 0 auto;
-  background-color: violet;
+  /* background-color: violet; */
+  text-align: center;
+  color: white;
 }
 
 /* # Main & sections */
